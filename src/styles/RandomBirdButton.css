@@ -1,0 +1,22 @@
+.qbox {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.buttonContainer {
+  margin-block: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonDescription {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.0rem;
+  margin-block: 1em;
+  font-family: "Nanum Gothic";
+}
