@@ -1,8 +1,8 @@
 import {RxHamburgerMenu} from 'react-icons/rx'
 
-function Hamburger() {
+function Hamburger({toggleMenu}) {
 	return (
-		<div>
+		<div className='hamburger' onClick={toggleMenu}>
 			<RxHamburgerMenu/>
 		</div>
 	)

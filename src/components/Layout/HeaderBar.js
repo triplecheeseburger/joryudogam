@@ -1,15 +1,16 @@
 import Header from "./Header";
-import SearchButton from "./SearchButton";
-import Hamburger from "./Hamburger";
-import '../../styles/HeaderBar.css'
-function headerBar() {
+import RandomButton from "./RandomButton";
+import Hamburger from "../Hamburger/Hamburger";
+import '../../styles/Layout.css'
+import React from 'react'
+function HeaderBar({toggleMenu}) {
 	return (
 		<div className='headerBar'>
-			<Hamburger />
+			<Hamburger toggleMenu={toggleMenu}/>
 			<Header />
-			<SearchButton />
+			<RandomButton />
 		</div>
 	)
 }
 
-export default headerBar
+export default React.memo(HeaderBar)

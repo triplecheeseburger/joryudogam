@@ -1,4 +1,5 @@
 import '../../styles/Layout.css'
+import React from 'react'
 function Footer() {
 	return (
 		<div className='footer'>
@@ -7,4 +8,4 @@ function Footer() {
 	)
 }
 
-export default Footer
+export default React.memo(Footer)
